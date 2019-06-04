@@ -154,6 +154,7 @@ namespace VS2019LaunchDemoFinale.Controllers
 		[Route("Liga/Delete/{key}")]
 		public ActionResult Delete(string key)
         {
+			//key delete
 			if (key == null)
 			{
 				return NotFound();

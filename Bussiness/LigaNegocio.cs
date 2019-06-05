@@ -64,14 +64,8 @@ namespace VS2019LaunchDemoFinale.Bussiness
 			{
 				int clubIndex = _ligaFutbol.Clubs.FindIndex(x => x.Key == club.Key);
 
-				_ligaFutbol.Name = "Liga 2018/2019";
 				_ligaFutbol.Clubs[clubIndex] = club;
 
-				//_ligaFutbol.Clubs[clubIndex] = new Club {
-				//	Key = club.Key,
-				//	Name = club.Name,
-				//	Code = club.Code
-				//};
 
 			}
 		}
